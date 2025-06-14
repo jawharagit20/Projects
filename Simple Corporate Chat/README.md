@@ -1,29 +1,21 @@
-# RPC Chat Group
+# Simple Corporate Chat
 
-**RPC Chat Group** est une application Java simple de chat en groupe basée sur le modèle client-serveur. Elle utilise le principe d'appel de procédures à distance (RPC) pour permettre à plusieurs clients de se connecter et d'échanger des messages via un serveur central.
+**Simple Corporate Chat** est une application Java de messagerie en groupe conçue pour un usage en entreprise. Elle repose sur une architecture client-serveur en utilisant à la fois **RPC (Remote Procedure Call)** et **RMI (Remote Method Invocation)** pour faciliter la communication entre clients et serveur.
 
-## 📦 Structure du projet
-
-```
-rpc-chat-group/
-├── ChatClient.java         # Code source du client
-├── ChatServer.java         # Code source du serveur
-├── ChatProtocol.java       # Interface RPC utilisée pour la communication
-├── users.txt               # Fichier d'utilisateurs autorisés
-├── *.class                 # Fichiers compilés Java
-└── readme.txt              # Description textuelle (originale)
 ```
 
 ## 🚀 Fonctionnalités
 
-- Connexion multi-clients à un serveur de chat
-- Communication via RPC
-- Gestion simple des utilisateurs (via `users.txt`)
-- Interface console pour envoyer/recevoir des messages
+- Système de messagerie instantanée en réseau local
+- Connexion multi-utilisateurs avec authentification simple
+- Communication client-serveur via **RMI** pour des appels de méthodes distants
+- Implémentation de principes **RPC** pour simuler une interface distribuée
+- Interface en ligne de commande intuitive
 
 ## 🔧 Prérequis
 
 - Java JDK (version 8 ou supérieure)
+- Configuration autorisant l'exécution RMI (ports ouverts, permissions réseau)
 
 ## 🛠️ Compilation et exécution
 
@@ -33,24 +25,39 @@ rpc-chat-group/
 javac ChatServer.java ChatClient.java ChatProtocol.java
 ```
 
-### 2. Lancement du serveur
+### 2. Lancement du registre RMI (si requis)
+
+```bash
+rmiregistry
+```
+
+> Exécutez cette commande dans le dossier contenant les `.class` ou spécifiez le chemin du registre.
+
+### 3. Lancement du serveur
 
 ```bash
 java ChatServer
 ```
 
-### 3. Lancement du client
+### 4. Lancement du client
 
 ```bash
 java ChatClient
 ```
 
-> ⚠️ Assurez-vous que le serveur est en cours d’exécution avant de démarrer un client.
+> ⚠️ Le client doit être lancé après le démarrage du serveur et du registre RMI.
 
 ## 👥 Gestion des utilisateurs
 
-Le fichier `users.txt` contient la liste des utilisateurs autorisés. Chaque ligne représente un utilisateur.
+Le fichier `users.txt` contient la liste des utilisateurs autorisés à se connecter. Chaque ligne correspond à un nom d'utilisateur unique.
+
+## 🔐 Sécurité
+
+Bien que l'application soit conçue pour un usage pédagogique ou interne, des améliorations peuvent être ajoutées :
+- Chiffrement des communications
+- Authentification avancée
+- Historique des messages
 
 ## 📄 Licence
 
-Ce projet est fourni à titre pédagogique. Aucun droit de licence explicite n'est appliqué.
+Projet académique ou de démonstration. Libre à des fins d'apprentissage, sans garantie commerciale.
