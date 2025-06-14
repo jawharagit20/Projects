@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  chat-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    container_name: chat-server
+    ports:
+      - "12345:12345"
+    volumes:
+      - chat-data:/app/data
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    networks:
+      - chat-network
+    restart: unless-stopped
+    environment:
+      - JAVA_OPTS=-Xmx256m -Xms128m
+      - DISPLAY=${DISPLAY}
+    healthcheck:
+      test: ["CMD-SHELL", "netstat -tln | grep :12345 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  chat-client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    networks:
+      - chat-network
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    environment:
+      - DISPLAY=${DISPLAY}
+    depends_on:
+      - chat-server
+    profiles:
+      - client
+
+volumes:
+  chat-data:
+    driver: local
+
+networks:
+  chat-network:
+    driver: bridge
