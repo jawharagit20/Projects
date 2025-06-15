@@ -1,0 +1,3 @@
+# Requirements for Kubernetes Cluster Setup Script
+pyyaml>=6.0
+paramiko>=2.8.0
