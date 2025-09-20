@@ -1,0 +1,122 @@
+{
+    "default": {
+        "messages": [
+            {
+                "role": "user",
+                "content": "quel est le prix unitaire du produit p003"
+            },
+            {
+                "role": "assistant",
+                "content": " Coût unitaire de P003 : 1.5"
+            }
+        ],
+        "created": "2025-08-29 14:37",
+        "title": "Chat Principal (Session actuelle)"
+    },
+    "chat_1756468697": {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Quelle est la famille de produit P004"
+            },
+            {
+                "role": "assistant",
+                "content": " Famille du produit P004 : Plastique"
+            },
+            {
+                "role": "user",
+                "content": "Quel est le delai de livraison de P007"
+            },
+            {
+                "role": "assistant",
+                "content": " Délai de livraison de P007 : 10 jours"
+            },
+            {
+                "role": "user",
+                "content": "Quel est le seuil de reappro de p010"
+            },
+            {
+                "role": "assistant",
+                "content": " Seuil de réapprovisionnement du produit P010 : 10"
+            },
+            {
+                "role": "user",
+                "content": "Combien est le poids unitaire de p012"
+            },
+            {
+                "role": "assistant",
+                "content": " Poids unitaire du produit P012 : 0.01"
+            },
+            {
+                "role": "user",
+                "content": "donner la liste des produits de la famille Connecteur"
+            },
+            {
+                "role": "assistant",
+                "content": " Produits de la famille connecteur :['P002', 'P007', 'P012', 'P017', 'P022', 'P027', 'P032', 'P037', 'P042', 'P047']"
+            },
+            {
+                "role": "user",
+                "content": "Quels sont les produits les plu chers "
+            },
+            {
+                "role": "user",
+                "content": "quels sont les produits les plus cher"
+            },
+            {
+                "role": "assistant",
+                "content": " Produit le plus cher : P001, P006, P011, P016, P021, P026, P031, P036, P041, P046"
+            },
+            {
+                "role": "user",
+                "content": "donner les produits de la famille cable"
+            },
+            {
+                "role": "user",
+                "content": "donner les produits de la famille plastique"
+            },
+            {
+                "role": "assistant",
+                "content": " Produits de la famille plastique : P004, P009, P014, P019, P024, P029, P034, P039, P044, P049"
+            },
+            {
+                "role": "user",
+                "content": "donner en detail la commande de f011"
+            },
+            {
+                "role": "assistant",
+                "content": "⏰ Temps de réponse trop long. Essayez une question plus précise."
+            },
+            {
+                "role": "user",
+                "content": "donner en detail la commande de F011"
+            },
+            {
+                "role": "user",
+                "content": "donner en détail la commande de f011"
+            },
+            {
+                "role": "assistant",
+                "content": "📦 Commande F011 :\n Produit P016 \n, Quantité: 79 \n, Statut: Retard \n, Type: Fournisseur \n, Livraison prévue: 2025-08-29\n, Livraison réelle: 2025-09-06\n,Contrepartie : Fournisseur_Y"
+            },
+            {
+                "role": "user",
+                "content": "quels sont les produits urgent"
+            },
+            {
+                "role": "assistant",
+                "content": "⏰ Temps de réponse trop long. Essayez une question plus précise."
+            },
+            {
+                "role": "user",
+                "content": "quelle est la désignation du produit p001"
+            },
+            {
+                "role": "assistant",
+                "content": "⏰ Temps de réponse trop long. Essayez une question plus précise."
+            }
+        ],
+        "created": "2025-08-29 12:10",
+        "title": "Ancien chat du 29/08 12:58"
+    }
+}

@@ -1,0 +1,16 @@
+Type_Commande,Num_Commande,Date_Commande,Référence_Produit,Quantité,Date_Livraison_Prévue,Date_Livraison_Réelle,Statut_Commande,Contrepartie
+Client,C001,2025-08-19,P001,20,2025-08-25,,En préparation,Client_A
+Client,C002,2025-08-19,P003,50,2025-08-21,2025-08-20,Livrée,Client_B
+Fournisseur,F001,2025-08-19,P002,100,2025-08-29,,En préparation,Fournisseur_X
+Client,C003,2025-08-19,P005,5,2025-08-30,,Retard,Client_C
+Fournisseur,F002,2025-08-19,P004,20,2025-08-25,2025-08-24,Livrée,Fournisseur_Y
+Client,C004,2025-08-19,P006,15,2025-08-27,,En préparation,Client_D
+Client,C005,2025-08-19,P007,30,2025-08-28,,En préparation,Client_E
+Fournisseur,F003,2025-08-19,P008,60,2025-09-01,,En préparation,Fournisseur_Z
+Client,C006,2025-08-19,P009,10,2025-08-29,,En préparation,Client_F
+Client,C007,2025-08-19,P010,8,2025-09-02,,En préparation,Client_G
+Fournisseur,F004,2025-08-19,P011,50,2025-09-03,,En préparation,Fournisseur_X
+Client,C008,2025-08-19,P012,25,2025-08-31,,En préparation,Client_H
+Client,C009,2025-08-19,P013,40,2025-09-04,,En préparation,Client_I
+Fournisseur,F005,2025-08-19,P014,15,2025-09-05,,En préparation,Fournisseur_Y
+Client,C010,2025-08-19,P015,12,2025-09-06,,En préparation,Client_J

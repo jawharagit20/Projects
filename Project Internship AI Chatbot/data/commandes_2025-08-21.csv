@@ -1,0 +1,36 @@
+﻿Type_Commande,Num_Commande,Date_Commande,Référence_Produit,Quantité,Date_Livraison_Prévue,Date_Livraison_Réelle,Statut_Commande,Contrepartie
+Fournisseur,F011,2025-08-20,P016,79,2025-08-29,2025-09-06,Retard,Fournisseur_Y
+Client,C012,2025-08-20,P017,33,2025-08-31,2025-08-30,Livrée,Client_R
+Fournisseur,F013,2025-08-20,P018,40,2025-08-29,2025-09-08,Retard,Fournisseur_Z
+Fournisseur,F014,2025-08-20,P019,6,2025-08-31,2025-08-30,Livrée,Fournisseur_Y
+Fournisseur,F015,2025-08-20,P020,101,2025-08-27,2025-08-31,Livrée,Fournisseur_Y
+Client,C016,2025-08-20,P021,86,2025-08-25,,En préparation,Client_C
+Fournisseur,F017,2025-08-20,P022,96,2025-09-04,,En préparation,Fournisseur_X
+Fournisseur,F018,2025-08-20,P023,79,2025-08-23,2025-09-02,Livrée,Fournisseur_X
+Client,C019,2025-08-20,P024,103,2025-08-27,2025-09-05,Retard,Client_E
+Fournisseur,F020,2025-08-20,P025,35,2025-08-31,2025-08-28,Livrée,Fournisseur_X
+Client,C021,2025-08-20,P026,74,2025-08-31,,En préparation,Client_D
+Client,C022,2025-08-20,P027,104,2025-08-27,2025-08-23,Livrée,Client_J
+Client,C023,2025-08-20,P028,38,2025-09-04,2025-08-23,Livrée,Client_H
+Fournisseur,F024,2025-08-20,P029,29,2025-09-01,2025-08-22,Livrée,Fournisseur_Z
+Fournisseur,F025,2025-08-20,P030,50,2025-08-26,2025-08-28,Livrée,Fournisseur_Y
+Client,C026,2025-08-20,P031,85,2025-08-25,2025-09-03,Livrée,Client_R
+Fournisseur,F027,2025-08-20,P032,63,2025-08-30,2025-09-06,Retard,Fournisseur_Y
+Client,C028,2025-08-20,P033,56,2025-08-24,2025-09-09,Retard,Client_F
+Client,C029,2025-08-20,P034,72,2025-08-29,,En préparation,Client_Z
+Fournisseur,F030,2025-08-20,P035,72,2025-08-22,,En préparation,Fournisseur_X
+Client,C031,2025-08-20,P036,89,2025-08-26,,En préparation,Client_V
+Client,C032,2025-08-20,P037,111,2025-08-29,,En préparation,Client_A
+Client,C033,2025-08-20,P038,15,2025-08-31,,En préparation,Client_C
+Fournisseur,F034,2025-08-20,P039,9,2025-09-01,2025-08-23,Livrée,Fournisseur_Y
+Client,C035,2025-08-20,P040,72,2025-09-03,,En préparation,Client_Y
+Client,C036,2025-08-20,P041,77,2025-08-31,2025-09-05,Retard,Client_J
+Fournisseur,F037,2025-08-20,P042,84,2025-08-29,,En préparation,Fournisseur_X
+Fournisseur,F038,2025-08-20,P043,77,2025-08-23,2025-09-05,Retard,Fournisseur_X
+Client,C039,2025-08-20,P044,63,2025-08-25,,En préparation,Client_E
+Client,C040,2025-08-20,P045,119,2025-08-22,,En préparation,Client_L
+Client,C041,2025-08-20,P046,63,2025-08-23,,En préparation,Client_A
+Client,C042,2025-08-20,P047,8,2025-08-26,,En préparation,Client_D
+Fournisseur,F043,2025-08-20,P048,87,2025-08-29,2025-08-25,Livrée,Fournisseur_X
+Fournisseur,F044,2025-08-20,P049,110,2025-08-25,2025-08-24,Livrée,Fournisseur_X
+Client,C045,2025-08-20,P050,60,2025-08-24,2025-09-09,Retard,Client_Y

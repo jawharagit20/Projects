@@ -1,0 +1,51 @@
+﻿Référence_Produit,Désignation,Famille,Fournisseur_Principal,Délai_Livraison_Jours,Seuil_Réappro,Coût_Unitaire,Poids_Unitaire
+P001,Fil électrique 1mm²,Câble,Yazaki,7,50,5.5,0.02
+P002,Connecteur 2 broches,Connecteur,TE Connectivity,10,100,2.2,0.01
+P003,Terminal 3 broches,Terminal,FCI,5,200,1.5,0.005
+P004,Boîtier plastique 200x50x20,Plastique,Plastico,15,30,3.0,0.05
+P005,Support métallique 5,Métal,MetalPro,20,10,4.5,0.1
+P006,Fil électrique 6mm²,Câble,Yazaki,7,50,5.5,0.02
+P007,Connecteur 7 broches,Connecteur,TE Connectivity,10,100,2.2,0.01
+P008,Terminal 8 broches,Terminal,FCI,5,200,1.5,0.005
+P009,Boîtier plastique 450x50x20,Plastique,Plastico,15,30,3.0,0.05
+P010,Support métallique 10,Métal,MetalPro,20,10,4.5,0.1
+P011,Fil électrique 11mm²,Câble,Yazaki,7,50,5.5,0.02
+P012,Connecteur 12 broches,Connecteur,TE Connectivity,10,100,2.2,0.01
+P013,Terminal 13 broches,Terminal,FCI,5,200,1.5,0.005
+P014,Boîtier plastique 700x50x20,Plastique,Plastico,15,30,3.0,0.05
+P015,Support métallique 15,Métal,MetalPro,20,10,4.5,0.1
+P016,Fil électrique 16mm²,Câble,Yazaki,7,50,5.5,0.02
+P017,Connecteur 17 broches,Connecteur,TE Connectivity,10,100,2.2,0.01
+P018,Terminal 18 broches,Terminal,FCI,5,200,1.5,0.005
+P019,Boîtier plastique 950x50x20,Plastique,Plastico,15,30,3.0,0.05
+P020,Support métallique 20,Métal,MetalPro,20,10,4.5,0.1
+P021,Fil électrique 21mm²,Câble,Yazaki,7,50,5.5,0.02
+P022,Connecteur 22 broches,Connecteur,TE Connectivity,10,100,2.2,0.01
+P023,Terminal 23 broches,Terminal,FCI,5,200,1.5,0.005
+P024,Boîtier plastique 1200x50x20,Plastique,Plastico,15,30,3.0,0.05
+P025,Support métallique 25,Métal,MetalPro,20,10,4.5,0.1
+P026,Fil électrique 26mm²,Câble,Yazaki,7,50,5.5,0.02
+P027,Connecteur 27 broches,Connecteur,TE Connectivity,10,100,2.2,0.01
+P028,Terminal 28 broches,Terminal,FCI,5,200,1.5,0.005
+P029,Boîtier plastique 1450x50x20,Plastique,Plastico,15,30,3.0,0.05
+P030,Support métallique 30,Métal,MetalPro,20,10,4.5,0.1
+P031,Fil électrique 31mm²,Câble,Yazaki,7,50,5.5,0.02
+P032,Connecteur 32 broches,Connecteur,TE Connectivity,10,100,2.2,0.01
+P033,Terminal 33 broches,Terminal,FCI,5,200,1.5,0.005
+P034,Boîtier plastique 1700x50x20,Plastique,Plastico,15,30,3.0,0.05
+P035,Support métallique 35,Métal,MetalPro,20,10,4.5,0.1
+P036,Fil électrique 36mm²,Câble,Yazaki,7,50,5.5,0.02
+P037,Connecteur 37 broches,Connecteur,TE Connectivity,10,100,2.2,0.01
+P038,Terminal 38 broches,Terminal,FCI,5,200,1.5,0.005
+P039,Boîtier plastique 1950x50x20,Plastique,Plastico,15,30,3.0,0.05
+P040,Support métallique 40,Métal,MetalPro,20,10,4.5,0.1
+P041,Fil électrique 41mm²,Câble,Yazaki,7,50,5.5,0.02
+P042,Connecteur 42 broches,Connecteur,TE Connectivity,10,100,2.2,0.01
+P043,Terminal 43 broches,Terminal,FCI,5,200,1.5,0.005
+P044,Boîtier plastique 2200x50x20,Plastique,Plastico,15,30,3.0,0.05
+P045,Support métallique 45,Métal,MetalPro,20,10,4.5,0.1
+P046,Fil électrique 46mm²,Câble,Yazaki,7,50,5.5,0.02
+P047,Connecteur 47 broches,Connecteur,TE Connectivity,10,100,2.2,0.01
+P048,Terminal 48 broches,Terminal,FCI,5,200,1.5,0.005
+P049,Boîtier plastique 2450x50x20,Plastique,Plastico,15,30,3.0,0.05
+P050,Support métallique 50,Métal,MetalPro,20,10,4.5,0.1
